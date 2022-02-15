@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin:0;
+    padding: 0;
+    background-color: #f4f1de;
+    font-family: 'Raleway', sans-serif;
+  }
+  
+  header, footer {
+    background: #3d405b;
+    color: #eee;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+  
+  .intro {
+      background:#6699CC;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+  
+  aside {
+    background-color: #f2cc8f;
+    padding: 1rem;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+  
+  .projects {
+    background-color: #f4a261;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+  
+  .labs {
+    background-color: #81b29a;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 25px;
+  }
+  
+  .projects li, .labs li {
+    border: 3px solid green;
+    margin: 10px;
+    padding: 10px;
+    width: 12rem;
+    height:12rem;
+    display: inline-block;
+  }
+  
+   ol {
+    list-style: none;
+     padding: 0;
+  }
+  
+  @media only screen and (min-width: 768px) {
+    
+}
