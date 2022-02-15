@@ -40,8 +40,7 @@
     background: #3d405b;
     color: #eee;
     padding: 2rem;
-    margin: 1rem;
-    border-radius: 25px;
+    
   }
 
   
@@ -99,4 +98,26 @@
 	padding: .5rem 1rem;
   }
   
+  @media screen and (min-width: 900px) {
+    
+    
+
+    body {
+      display: grid;
+      grid-template-columns: 3fr 1fr;
+    }
+
+    header, footer {
+      grid-column: 1 / 4;
+    }
+    
+    main {
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+   }
+    
+    .intro {
+      grid-column: 1/3;
+    }
+  }
 
